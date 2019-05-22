@@ -143,15 +143,16 @@ footer{
 
   h1{
     font-family: "Taylor";
-    font-size: 275%;
+    font-size: 250%;
     color: White;
+    margin-bottom: 5px;
   }
 
   h2{
     font-family: "Taylor";
     font-size: 150%;
       color: White;
-      margin: 5px 20px 10px;
+      margin: 1px 20px 10px;
   }
 
   h3{
