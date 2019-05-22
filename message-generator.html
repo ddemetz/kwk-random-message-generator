@@ -7,8 +7,32 @@
      <script type="text/javascript" src="javascript.js"></script>
   </head>
   <body>
+
+
+
   <h1>Shake Shake Shake</h1>
-  <h3> Shake the polaroid to pick a Taylor song to listen to. </h3>
-  <img id="polaroid" src="assets/polaroid.png">
+  <h2>Shake the polaroid to pick a Taylor song to listen to. </h2>
+  <center>
+
+  <div id="container">
+
+<div class="pola" id="polaroid" onclick="song()">
+  <h3 class="message noselect"></h3>
+</div>
+
+    </div>
+  </center>
+
+
+
+  <video preload="preload"  id="video" autoplay="autoplay" loop="loop">
+  <source src="assets/ts-bg-3.mp4" type="video/mp4"></source>
+  </video>
+
+<footer>
+  <p>
+    &copy Dominique Demetz
+  </p>
+</footer>
   </body>
 </html>
