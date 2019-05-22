@@ -132,10 +132,10 @@ footer{
 @media screen and (min-width: 320px) and (max-width: 768px){
   .pola{
     margin-top: 50px;
-    width: 437.5px;
-    height:500px;
+    width: 350px;
+    height:400px;
     background-image: url(assets/polaroid.png);
-    background-size: 437.5px 500px;
+    background-size: 350px 400px;
     position:relative;
     text-align: center;
     box-shadow: 10px 10px 10px #303030;
@@ -151,7 +151,7 @@ footer{
     font-family: "Taylor";
     font-size: 200%;
       color: White;
-      margin: 50px;
+      margin: 20px;
   }
 
   h3{
