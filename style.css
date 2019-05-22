@@ -128,3 +128,89 @@ footer{
     min-height: 2000px;
   }
 }
+
+(-webkit-device-pixel-ratio : 3){
+  .pola{
+    margin-top: 50px;
+    width: 437.5px;
+    height:500px;
+    background-image: url(assets/polaroid.png);
+    background-size: 437.5px 500px;
+    position:relative;
+    text-align: center;
+    box-shadow: 10px 10px 10px #303030;
+  }
+
+  h1{
+    font-family: "Taylor";
+    font-size: 200%;
+    color: White;
+  }
+
+  h2{
+    font-family: "Taylor";
+    font-size: 150%;
+      color: White;
+      margin: 50px;
+  }
+
+  h3{
+    color: black;
+    font-size:150%;
+    padding-top: 104%;
+    font-family: "Taylor";
+    text-align: center;
+  }
+
+  video{
+  position: fixed;
+  left:0;
+  top: 0;
+    z-index: -100;
+    min-width: 100%;
+    min-height: 2000px;
+  }
+}
+
+(-webkit-device-pixel-ratio : 2){
+  .pola{
+    margin-top: 50px;
+    width: 437.5px;
+    height:500px;
+    background-image: url(assets/polaroid.png);
+    background-size: 437.5px 500px;
+    position:relative;
+    text-align: center;
+    box-shadow: 10px 10px 10px #303030;
+  }
+
+  h1{
+    font-family: "Taylor";
+    font-size: 200%;
+    color: White;
+  }
+
+  h2{
+    font-family: "Taylor";
+    font-size: 150%;
+      color: White;
+      margin: 50px;
+  }
+
+  h3{
+    color: black;
+    font-size:150%;
+    padding-top: 104%;
+    font-family: "Taylor";
+    text-align: center;
+  }
+
+  video{
+  position: fixed;
+  left:0;
+  top: 0;
+    z-index: -100;
+    min-width: 100%;
+    min-height: 2000px;
+  }
+}
